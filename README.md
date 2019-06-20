@@ -40,3 +40,15 @@ surf.getVideoDetails(videoId)
 ```javascript
 surf.getVideoUrl(videoId)
 ```
+
+### Get trending
+
+```javascript
+surf.getTrending()
+```
+
+### Search for a term or tags
+
+```javascript
+surf.search(searchTerm, tags = [])
+```
